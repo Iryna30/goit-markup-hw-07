@@ -1,0 +1,208 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+.mobile-menu-btn{
+  display: none;
+}
+  /* Site nav */
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 120px;
+  color: var(--title-background-color);
+}
+
+.site-nav .link {
+  display: block;
+  color: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.site-nav-item + .site-nav-item {
+  margin-left: 40px;
+}
+.contact {
+  display: flex;
+  margin-left: auto;
+}
+
+  .contact-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.contact-nav .link {
+ 
+  color: var(--body-text-color);
+  font-style: normal;
+  font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.04em;
+}
+
+.contact-nav-item + .contact-nav-item {
+  margin-left: 40px;
+}
+.link.current {
+  position: relative;
+}
+
+.link.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--pressed-state-color);
+  border-radius: 2px;
+}
+.link:hover,
+.link:focus,
+.link.current {
+  color: var(--pressed-state-color);
+}
+
+
+  .modal{
+    padding: 24px;
+  }
+
+.hero{
+  height: auto;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 188px 0;
+   background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/tablet-hero.jpg);
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/tablet-hero@2x.jpg');
+  }
+}
+
+  .hero-title {
+ 
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    
+  }
+
+  .features-subtitle{
+    text-align: left;
+  }
+
+  .features-descr{
+    text-align: left;
+  }
+
+  .features-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.feature-item {
+  flex-basis: calc((100% - 24px) / 2);
+}
+
+.team-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 64px;
+  column-gap: 24px;
+}
+.customers-list {
+
+  column-gap: 24px;
+  row-gap: 72px;
+}
+
+.customers-item {
+  width: 168px;
+  height: 88px;
+}
+
+.footer-container {
+   padding-left: 108px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+   row-gap: 72px;
+
+}
+
+.logo-text-container {
+    text-align: left;
+}
+
+.footer-social-subtitle{
+    text-align: left;
+}
+.footer-social-container {
+    margin-left: 24px;
+}
+
+.footer-subscribe{
+
+
+}
+
+.footer-subscribe-title{
+    text-align: left;
+}
+.subscribe-mail{
+  width: 264px;
+  height: 40px;
+  margin-right: 24px;
+  margin-bottom: 0;
+  }
+}
