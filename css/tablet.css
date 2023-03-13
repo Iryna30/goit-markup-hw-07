@@ -151,6 +151,7 @@ letter-spacing: 0.04em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  column-gap: 16px;
 
 }
 .feature-item {
