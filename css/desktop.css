@@ -3,6 +3,7 @@
   max-width: 1158px;
   padding: 0 16px;
   margin: 0 auto;
+  
 }
 
     .section {
@@ -19,7 +20,7 @@
 }
 
 .contact-nav .link {
- 
+ padding-bottom: 24px;
   font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -75,6 +76,11 @@ height: auto;
 
 .features-list {
   display: flex;
+}
+.features-descr{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
 }
 .feature-item {
   flex-basis: calc((100% - 3 * var(--card-row-gap)) / 4);

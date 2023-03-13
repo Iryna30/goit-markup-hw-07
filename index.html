@@ -62,6 +62,7 @@
               <a href="mailto:info@devstudio.com" class="mail link"
                 >info@devstudio.com</a>
             </li>
+          </ul>
 
           <ul class="menu-social-list list">
                   <li class="menu-social-item">
@@ -92,6 +93,7 @@
                       </svg>
                     </a>
                   </li>
+          </ul>
         </div>
           
       </div>
@@ -119,12 +121,12 @@
         <address class="contact">
           <ul class="contact-nav list">
             <li class="contact-nav-item">
-              <a href="mailto:info@devstudio.com" class="link"
+              <a href="mailto:info@devstudio.com" class="email-nav link"
                 >info@devstudio.com</a
               >
             </li>
             <li class="contact-nav-item">
-              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+              <a href="tel:+110001111111" class="phone-nav link">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
@@ -221,7 +223,7 @@
                   </span>
                   <span class="label"
                     >I accept the terms and conditions of the
-                    <a class="link-policy" hr>Privacy Policy</a></span
+                    <a class="link-policy" href>Privacy Policy</a></span
                   >
                 </label>
               </div>
@@ -339,9 +341,12 @@
             <li class="team-list-item">
               <img
                 class="team-photo"
-                srcset="./images/mark.jpg 1x, ./images/mark@2x.jpg 2x"
                 src="./images/mark.jpg"
                 alt="Photo our product designer"
+                srcset="
+                  ./images/mark.jpg 1x,
+                  ./images/mark@2x.jpg 2x
+                "
               />
               <div class="team-list-container">
                 <h3 class="team-subtitle">Mark Guerrero</h3>
@@ -380,12 +385,10 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-photo"
-                srcset="./images/tom.jpg 1x, ./images/tom@2x.jpg 2x,"
-                src="./images/tom.jpg"
-                alt="Photo of our Frontend Developer"
-              />
+              <img class="team-photo" srcset="./images/tom.jpg 1x, 
+              ./images/tom@2x.jpg 2x,"
+               src="./images/tom.jpg" 
+               alt="Photo of our Frontend Developer"/>
               <div class="team-list-container">
                 <h3 class="team-subtitle">Tom Ford</h3>
                 <p class="team-descr">Frontend Developer</p>
@@ -426,7 +429,8 @@
             <li class="team-list-item">
               <img
                 class="team-photo"
-                srcset="./images/camila.jpg 1x, ./images/camila@2x.jpg 2x"
+                srcset="./images/camila.jpg 1x, 
+                ./images/camila@2x.jpg 2x" 
                 src="./images/camila.jpg"
                 alt="Photo of our Marketing"
               />
@@ -470,7 +474,8 @@
             <li class="team-list-item">
               <img
                 class="team-photo"
-                srcset="./images/daniel.jpg 1x, ./images/daniel@2x.jpg 2x "
+                srcset="./images/daniel.jpg 1x, 
+                ./images/daniel@2x.jpg 2x "
                 src="./images/daniel.jpg"
                 alt="Photo of our UI Designer"
               />
@@ -614,7 +619,7 @@
           <div class="subscribe-field">
             <input
               class="subscribe-mail"
-              type="mail"
+              type="email"
               name="mail"
               placeholder="E-mail"
             />

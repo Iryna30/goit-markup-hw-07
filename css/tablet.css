@@ -62,7 +62,13 @@
 line-height: 1.33;
 letter-spacing: 0.04em;
 }
+.contact-nav-item .phone-nav{
+  padding-bottom: 10px;
 
+}
+.contact-nav-item .email-nav{
+  padding-bottom: 4px;
+}
 .contact-nav-item + .contact-nav-item {
   margin-left: 40px;
 }
