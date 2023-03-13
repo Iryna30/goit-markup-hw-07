@@ -76,6 +76,7 @@ height: auto;
 
 .features-list {
   display: flex;
+  flex-wrap: nowrap;
 }
 .features-descr{
 font-weight: 400;
