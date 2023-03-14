@@ -5,5 +5,24 @@
     max-width: 428px;
   }
 
+  .menu-social-list{
+    column-gap: 56px;
+    justify-content: flex-start;
+  }
+
+  .contact-menu-item .phone{
+    
+
+  }
+
+  .modal {
+    width: 408px;
+  }
+.reg-form {
+  width: 360px;
+}
+  .subscribe-mail{
+      margin-right: 16px;
+  margin-bottom: 16px;
  
 }
