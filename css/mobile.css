@@ -1,5 +1,10 @@
 
-
+@media screen and (max-width:427px) {
+  .modal{
+    width: 296px;
+  }
+  
+}
 @media screen and (min-width: 480px) {
   .container{
     max-width: 428px;
@@ -16,7 +21,7 @@
   }
 
   .modal {
-    width: 408px;
+    width: 392px;
   }
 .reg-form {
   width: 360px;

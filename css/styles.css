@@ -354,7 +354,8 @@ letter-spacing: 0.02em;
   transform: translate(-50%, -50%) scale(1);
   transition: 550ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
 
-  width: 296px;
+  width: 392px;
+
   min-height: 576px;
   padding-top: 24px;
   padding-bottom: 24px;
